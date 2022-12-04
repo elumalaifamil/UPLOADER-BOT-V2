@@ -130,7 +130,7 @@ async def ddl_call_back(bot, update):
                     chat_id=update.message.chat.id,
                     audio=download_directory,
                     caption=description,
-                    duration=duration,
+                    
                     thumb=thumb_image_path,
                     reply_to_message_id=update.message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
@@ -168,7 +168,7 @@ async def ddl_call_back(bot, update):
                     
                     
                    
-                    duration=duration,
+                    
                     length=width,
                     thumb=thumb_image_path,
                     reply_to_message_id=update.message.reply_to_message.message_id,
@@ -187,7 +187,7 @@ async def ddl_call_back(bot, update):
                     chat_id=update.message.chat.id,
                     video=download_directory,
                     caption=description,
-                    duration=duration,
+                    
                     width=width,
                     height=height,
                     supports_streaming=True,
