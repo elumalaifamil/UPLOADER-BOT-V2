@@ -142,7 +142,7 @@ async def ddl_call_back(bot, update):
                     )
                 )
             elif tg_send_type == "file":
-                thumb_image_path = await Gthumb01(bot, update, duration, download_directory)
+                thumb_image_path = await Gthumb01(bot, update)
                 await bot.send_document(
                     chat_id=update.message.chat.id,
                     document=download_directory,
@@ -160,7 +160,7 @@ async def ddl_call_back(bot, update):
                 )
             elif tg_send_type == "vm":
                 
-                thumb_image_path = await Gthumb01(bot, update, duration, download_directory)
+                thumb_image_path = await Gthumb01(bot, update)
                 await bot.send_video_notes(
                     chat_id=update.message.chat.id,
                     video_note=download_directory,
