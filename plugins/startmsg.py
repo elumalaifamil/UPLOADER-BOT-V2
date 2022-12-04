@@ -20,12 +20,12 @@ Or use /cancel to terminate incomplete processes."""
 You can now send a new URL."""
     NO_PROCESS_FOUND = """🤷‍♂️ No pending uploads were found. You can upload files by sending a link now!"""
     FORMAT_SELECTION = "👇𝗦𝗲𝗹𝗲𝗰𝘁 𝗔𝗻𝗱 𝗖𝗵𝗼𝘀𝗲 𝗬𝗼𝘂𝗿 𝗙𝗼𝗿𝗺𝗮𝘁👇"
-    SET_CUSTOM_USERNAME_PASSWORD = """\n👮‍♂ Powered By :</b> @LISA_FAN_LK"""
+    SET_CUSTOM_USERNAME_PASSWORD = """\n👮‍♂ Powered By :</b> @all_is_well_friends"""
     DOWNLOAD_START = "📥 DOWNLOADING..."
     UPLOAD_START = "📤 UPLOADING..."
     RCHD_TG_API_LIMIT = "<b>Downloaded in:</b> {} seconds.\n<b>Detected file size:</b> {}.\n\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations 😕."
     #AFTER_SUCCESSFUL_UPLOAD_MSG = "𝘛𝘏𝘈𝘕𝘒𝘚 𝘍𝘖𝘙 𝘜𝘚𝘐𝘕𝘎 𝘔𝘌 🥰"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "𝘛𝘏𝘈𝘕𝘒𝘚 𝘍𝘖𝘙 𝘜𝘚𝘐𝘕𝘎 𝘔𝘌 🥰\n\n@NT_BOT_CHANNEL"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "𝘛𝘏𝘈𝘕𝘒𝘚 𝘍𝘖𝘙 𝘜𝘚𝘐𝘕𝘎 𝘔𝘌 🥰\n\n@digitaldvdgiftbot"
     SAVED_CUSTOM_THUMB_NAIL = "Save Your Thumbnail ✅."
     DEL_ETED_CUSTOM_THUMB_NAIL = " Delete Your Thumbnail ✅."
     CUSTOM_CAPTION_UL_FILE = "{}"
@@ -47,7 +47,7 @@ You can now send a new URL."""
 
 6. Comments /about /viewthumbnail /info
 """
-    ABOUT_TEXT = """<b>🔘 My Name :</b> URL Uploader Bot 🚀
+    ABOUT_TEXT = """<b>🔘 My Name :</b> digitaldvdgift Bot 🚀
 
 
 
