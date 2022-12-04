@@ -130,7 +130,7 @@ async def ddl_call_back(bot, update):
                     chat_id=update.message.chat.id,
                     audio=download_directory,
                     caption=description,
-                    
+                    duration=duration,
                     thumb=thumb_image_path,
                     reply_to_message_id=update.message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
@@ -148,7 +148,7 @@ async def ddl_call_back(bot, update):
                     document=download_directory,
                     thumb=thumb_image_path,
                     caption=description,
-                  
+                  duration=duration,
                     reply_to_message_id=update.message.reply_to_message.message_id,
                     progress=progress_for_pyrogram,
                     progress_args=(
@@ -168,7 +168,7 @@ async def ddl_call_back(bot, update):
                     
                     
                    
-                    
+                    duration=duration,
                     length=width,
                     thumb=thumb_image_path,
                     reply_to_message_id=update.message.reply_to_message.message_id,
@@ -187,7 +187,7 @@ async def ddl_call_back(bot, update):
                     chat_id=update.message.chat.id,
                     video=download_directory,
                     caption=description,
-                    
+                    duration=duration,
                     width=width,
                     height=height,
                     supports_streaming=True,
@@ -254,7 +254,7 @@ async def download_coroutine(bot, session, url, file_name, chat_id, message_id, 
                         (total_length - downloaded) / speed) * 1000
                     estimated_total_time = elapsed_time + time_to_completion
                     try:
-                        current_message = """**DOWNLOADING**
+                        current_message = """**DOWNLOADING just wait**
 URL: `{}`
 
 File Size: {}
