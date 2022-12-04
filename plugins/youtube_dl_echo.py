@@ -217,18 +217,7 @@ async def echo(bot, update):
             ])
             cb_string_file = "{}={}={}".format(
                 "file", format_id, format_ext)
-            cb_string_video = "{}={}={}".format(
-                "video", format_id, format_ext)
-            inline_keyboard.append([
-                InlineKeyboardButton(
-                    "🎥 videov - " + format_ext,
-                    callback_data=(cb_string_video).encode("UTF-8")
-                ),
-                InlineKeyboardButton(
-                    "📁 fileu - " + format_ext,
-                    callback_data=(cb_string_file).encode("UTF-8")
-                )
-            ])
+            
         reply_markup = InlineKeyboardMarkup(inline_keyboard)
         await imog.delete(True)
         await bot.send_message(
