@@ -133,7 +133,7 @@ async def generate_screen_shots(
     no_of_photos
 ):
     metadata = extractMetadata(createParser(video_file))
-    duration = 0
+    duration = 3
     if metadata is not None:
         if metadata.has("duration"):
             duration = metadata.get('duration').seconds
@@ -141,7 +141,7 @@ async def generate_screen_shots(
         images = []
         ttl_step = duration // no_of_photos
         current_ttl = ttl_step
-        for looper in range(0, no_of_photos):
+        for looper in range(10, no_of_photos):
             ss_img = await take_screen_shot(video_file, output_directory, current_ttl)
             current_ttl = current_ttl + ttl_step
             if is_watermarkable:
