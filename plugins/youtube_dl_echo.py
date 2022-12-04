@@ -207,11 +207,11 @@ async def echo(bot, update):
                 "video", format_id, format_ext)
             inline_keyboard.append([
                 InlineKeyboardButton(
-                    "🎥 video - " + format_ext,
+                    "🎥 videox - " + format_ext,
                     callback_data=(cb_string_video).encode("UTF-8")
                 ),
                 InlineKeyboardButton(
-                    "📁 file - " + format_ext,
+                    "📁 filew - " + format_ext,
                     callback_data=(cb_string_file).encode("UTF-8")
                 )
             ])
@@ -221,11 +221,11 @@ async def echo(bot, update):
                 "video", format_id, format_ext)
             inline_keyboard.append([
                 InlineKeyboardButton(
-                    "🎥 video - " + format_ext,
+                    "🎥 videov - " + format_ext,
                     callback_data=(cb_string_video).encode("UTF-8")
                 ),
                 InlineKeyboardButton(
-                    "📁 file - " + format_ext,
+                    "📁 fileu - " + format_ext,
                     callback_data=(cb_string_file).encode("UTF-8")
                 )
             ])
