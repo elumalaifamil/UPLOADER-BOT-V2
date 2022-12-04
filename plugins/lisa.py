@@ -104,7 +104,7 @@ async def lisa_call_back(bot, update):
             start_time = time.time()
             if tg_send_type == "audio":
                 duration = await Mdata03(download_directory)
-                thumb_image_path = await Gthumb01(bot, update)
+                thumb_image_path = await Gthumb02(bot, update)
                 await bot.send_audio(
                     chat_id=update.message.chat.id,
                     audio=download_directory,
@@ -120,7 +120,7 @@ async def lisa_call_back(bot, update):
                     )
                 )
             elif tg_send_type == "file":
-                thumb_image_path = await Gthumb01(bot, update)
+                thumb_image_path = await Gthumb02(bot, update)
                 await bot.send_document(
                     chat_id=update.message.chat.id,
                     document=download_directory,
