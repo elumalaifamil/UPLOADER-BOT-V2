@@ -179,7 +179,27 @@ async def ddl_call_back(bot, update):
                         custom_file_name,
                         start_time
                     )
+                )
+            elif tg_send_type == "video":
                 
+                thumb_image_path = await Gthumb02(bot, update, duration, download_directory)
+                await bot.send_video(
+                    chat_id=update.message.chat.id,
+                    video=download_directory,
+                    caption=description,
+                    duration=duration,
+                    width=width,
+                    height=height,
+                    supports_streaming=True,
+                    thumb=thumb_image_path,
+                    reply_to_message_id=update.message.reply_to_message.message_id,
+                    progress=progress_for_pyrogram,
+                    progress_args=(
+                        Translation.UPLOAD_START,
+                        update.message,
+                        custom_file_name,
+                        start_time
+                    )
                 )
             else:
                 logger.info("Did this happen? :\\")
