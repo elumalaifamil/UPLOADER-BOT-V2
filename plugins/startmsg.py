@@ -5,7 +5,7 @@ I'm Url Uploader Bot 🚀
 
 <b>Permanent Thumbnail Support💯.</b>
 
-<i>Send me a direct link and I will upload it to telegram as a file/video.</i>
+<i>Send me a direct link and I will upload it to telegram as a file.</i>
 
 Click /help for more details...."""
     ADD_CAPTION_HELP = """Select an uploaded file/video or forward me <b>Any Telegram File</b> and just write the text you want to be on the file <b>as a reply to the file</b> and the text you wrote will be attached as the caption! 🤩
@@ -47,17 +47,11 @@ You can now send a new URL."""
 
 6. Comments /about /viewthumbnail /info
 """
-    ABOUT_TEXT = """<b>🔘 My Name :</b> URL Uploader Bot V2 🚀
+    ABOUT_TEXT = """<b>🔘 My Name :</b> URL Uploader Bot 🚀
 
-<b>🔘 Channel :</b> <a href="https://t.me/NT_BOT_CHANNEL">NT BOT</a>
 
-<b>🔘 Source :</b> <a href="https://github.com/LISA-KOREA/UPLOADER-BOT-V2">Click Here</a>
 
-<b>🔘 Language :</b> <a href="https://www.python.org/">Python 3.10.8</a>
-
-<b>🔘 Framework :</b> <a href="https://docs.pyrogram.org/">Pyrogram 1.4.16</a>
-
-<b>🔘 Creater :</b> @LISA_FAN_LK"""
+<b>🔘 Creater :</b> @all_is_well_friends"""
 
     REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Send your thumbnail pic to generate custom thumbail."
     ERR_ONLY_TWO_MEDIA_IN_ALBUM = "Media Album should contain only two photos. Please re-send the media album, and then try again, or send only two photos in an album."
