@@ -1,4 +1,4 @@
-# Modified by @LISA_FAN_LK | @UploadLinkToFileBot
+# Modified by me
 
 import logging
 logging.basicConfig(level=logging.DEBUG,
@@ -72,7 +72,7 @@ async def help_user(bot, update):
         reply_markup=InlineKeyboardMarkup(
         [
           [
-          InlineKeyboardButton('📍 JOIN CHANNEL 📍', url='https://t.me/NT_BOT_CHANNEL'),
+          InlineKeyboardButton('📍 JOIN CHANNEL 📍', url='https://t.me/+lyha4R7d5a5hYjU0'),
           ]
         ]
        ),
@@ -97,7 +97,7 @@ async def about(bot, update):
         reply_markup=InlineKeyboardMarkup(
         [
           [
-          InlineKeyboardButton('📍 JOIN CHANNEL 📍', url='https://t.me/NT_BOT_CHANNEL'),
+          InlineKeyboardButton('📍 JOIN CHANNEL 📍', url='https://t.me/+lyha4R7d5a5hYjU0'),
           ]
         ]
        ),
@@ -114,12 +114,9 @@ async def start(bot, update):
         reply_markup=InlineKeyboardMarkup(
         [
           [
-          InlineKeyboardButton('📍 CHANNEL', url='https://t.me/NT_BOT_CHANNEL'),
+          InlineKeyboardButton('📍 CHANNEL', url='https://t.me/+lyha4R7d5a5hYjU0'),
       ],
-      [
-          InlineKeyboardButton('👨‍💻 DEVELOPER', url='https://t.me/LISA_FAN_LK'),
-          InlineKeyboardButton('🌝 SOURCE', url='https://github.com/LISA-KOREA/UPLOADER-BOT-V2'),
-          ]
+      
         ]
       ),
       reply_to_message_id=update.message_id
