@@ -157,7 +157,7 @@ async def echo(bot, update):
                             callback_data=(cb_string_video).encode("UTF-8")
                         ),
                         InlineKeyboardButton(
-                            "📁 file " + format_ext + " " + approx_file_size,
+                            "📁 filed " + format_ext + " " + approx_file_size,
                             callback_data=(cb_string_file).encode("UTF-8")
                         )
                     ]
